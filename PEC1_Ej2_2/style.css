@@ -1,0 +1,120 @@
+
+/* Body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(181, 218, 166);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    display: block;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+
+
+/* Formulario */
+
+.form-control {
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+
+input {
+    width: 95%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+
+
+/* Botón formulario y tasa de cambio */
+
+.button-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+.rate {
+    grid-column: 3 / 4;
+    font-size: small;
+    color: green;
+}
+
+
+button {
+    padding: 0.5rem;
+    width: auto;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Visibilidad y errores */
+
+.hidden {
+    display: none;
+}
+
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+
+#loading {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
